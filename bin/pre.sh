@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -eo pipefail
 
@@ -26,5 +26,5 @@ done <.gitmodules
 echo "$json" >git_submodules.json
 sleep 1
 
-echo "ℹ️ JSON Output file written"
+echo "git_submodules.json  Output file written"
 exit 0
